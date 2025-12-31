@@ -1,0 +1,573 @@
+[
+  {
+    "text": "Aww, shut the fuck up little whiny bitch",
+    "label": "toxic",
+    "probability": 0.9077968001365662,
+    "decision": "FLAGGED",
+    "confidence": "high",
+    "top_contributing_words": [
+      [
+        "fuck",
+        0.4093931317329407
+      ],
+      [
+        "bitch",
+        0.12081804871559143
+      ],
+      [
+        "ww",
+        0.06899026036262512
+      ],
+      [
+        "up",
+        0.04941435903310776
+      ],
+      [
+        "little",
+        0.047330573201179504
+      ]
+    ],
+    "top_suppressing_words": [
+      [
+        "A",
+        -0.030248314142227173
+      ]
+    ],
+    "summary": "This text was FLAGGED as **toxic** with 90.8% confidence. \n**Primary reasons:** The words 'fuck' (+0.409), 'bitch' (+0.121), 'ww' (+0.069) strongly contributed to this classification. \n**Mitigating factors:** However, 'A' (-0.030) reduced the score.",
+    "all_predictions": {
+      "toxic": 0.9077968001365662,
+      "severe_toxic": 0.3632326126098633,
+      "obscene": 0.8023982048034668,
+      "threat": 0.09651454538106918,
+      "insult": 0.6581210494041443,
+      "identity_hate": 0.19502991437911987
+    }
+  },
+  {
+    "text": "you  \nyou stupid bitch",
+    "label": "toxic",
+    "probability": 0.8830227255821228,
+    "decision": "FLAGGED",
+    "confidence": "high",
+    "top_contributing_words": [
+      [
+        "bitch",
+        0.17763513326644897
+      ],
+      [
+        "you",
+        0.059272632002830505
+      ],
+      [
+        "",
+        0.0521790012717247
+      ],
+      [
+        "",
+        0.04095274955034256
+      ],
+      [
+        "you",
+        0.04063938558101654
+      ]
+    ],
+    "top_suppressing_words": [],
+    "summary": "This text was FLAGGED as **toxic** with 88.3% confidence. \n**Primary reasons:** The words 'bitch' (+0.178), 'you' (+0.059), '' (+0.052) strongly contributed to this classification.",
+    "all_predictions": {
+      "toxic": 0.8830227255821228,
+      "severe_toxic": 0.3519101142883301,
+      "obscene": 0.6947827339172363,
+      "threat": 0.11016491800546646,
+      "insult": 0.7558566331863403,
+      "identity_hate": 0.2681691646575928
+    }
+  },
+  {
+    "text": "Say one thing, do another \n\nIM GONNA SAY WHAT EVERY DECENT PERSON HERE THINKS BUT CANT SAY CAUSE THEYLL BE LABELLED A RACIST AND GET BLOCKED FROM HERE, YOU CANT SAY ANYTHING EVEN SLIGHTLY DISPROVING OR DEMEANING ABOUT WHAT BLACK PEOPLE SAY WITHOUT BEING LABELLED A RACIST, KARENGA RAPED TWO CHICKS, BUT OH NO, YOU CANT SAY THAT, ITS RACIST, EVERY LIBERAL AND HIPPY IN THE WORLD WILL JUMP ON YOU I AM WHITE AND BELIEVE IN WHITE NATIONALISM, AND I ALSO SUPPORT BLACK NATIONALISM AND OTHERS, BUT I DONT BELIEVE IN IDIOCY AND LIES, WHICH IS WHAT THIS PAGE IS SPROUTING",
+    "label": "toxic",
+    "probability": 0.6282731294631958,
+    "decision": "FLAGGED",
+    "confidence": "moderate",
+    "top_contributing_words": [
+      [
+        "ICK",
+        0.04170753061771393
+      ],
+      [
+        "SAY",
+        0.03866183012723923
+      ],
+      [
+        "UMP",
+        0.0224761925637722
+      ],
+      [
+        "YOU",
+        0.021793296560645103
+      ],
+      [
+        "S",
+        0.01782441884279251
+      ]
+    ],
+    "top_suppressing_words": [
+      [
+        "IST",
+        -0.04333513230085373
+      ],
+      [
+        "CH",
+        -0.012058871798217297
+      ],
+      [
+        "ANT",
+        -0.01012458372861147
+      ],
+      [
+        "EVERY",
+        -0.009371388703584671
+      ],
+      [
+        "YOU",
+        -0.005966004449874163
+      ]
+    ],
+    "summary": "This text was FLAGGED as **toxic** with 62.8% confidence. \n**Primary reasons:** The words 'ICK' (+0.042), 'SAY' (+0.039), 'UMP' (+0.022) strongly contributed to this classification. \n**Mitigating factors:** However, 'IST' (-0.043), 'CH' (-0.012) reduced the score.",
+    "all_predictions": {
+      "toxic": 0.6282731294631958,
+      "severe_toxic": 0.1419094204902649,
+      "obscene": 0.25423675775527954,
+      "threat": 0.1093134805560112,
+      "insult": 0.3173355162143707,
+      "identity_hate": 0.3199337124824524
+    }
+  },
+  {
+    "text": "Listen here moron, you completely violate wikipedia regulations both on your userpage and in your edits. You should be paraded through the streets as an animal not worthy of our presence.",
+    "label": "toxic",
+    "probability": 0.5927030444145203,
+    "decision": "FLAGGED",
+    "confidence": "moderate",
+    "top_contributing_words": [
+      [
+        "on",
+        0.11240453273057938
+      ],
+      [
+        "mor",
+        0.09721531718969345
+      ],
+      [
+        "streets",
+        0.04774226248264313
+      ],
+      [
+        "you",
+        0.046676717698574066
+      ],
+      [
+        "ipedia",
+        0.02898239530622959
+      ]
+    ],
+    "top_suppressing_words": [
+      [
+        "as",
+        -0.027443833649158478
+      ],
+      [
+        "regulations",
+        -0.026462776586413383
+      ],
+      [
+        ".",
+        -0.026069551706314087
+      ],
+      [
+        "presence",
+        -0.014006032608449459
+      ],
+      [
+        "on",
+        -0.008319615386426449
+      ]
+    ],
+    "summary": "This text was FLAGGED as **toxic** with 59.3% confidence. \n**Primary reasons:** The words 'on' (+0.112), 'mor' (+0.097), 'streets' (+0.048) strongly contributed to this classification. \n**Mitigating factors:** However, 'as' (-0.027), 'regulations' (-0.026) reduced the score.",
+    "all_predictions": {
+      "toxic": 0.5927030444145203,
+      "severe_toxic": 0.08167129755020142,
+      "obscene": 0.22924228012561798,
+      "threat": 0.10796264559030533,
+      "insult": 0.40324866771698,
+      "identity_hate": 0.13000905513763428
+    }
+  },
+  {
+    "text": "Fucking whore \n\nYou are such a dumb bitch i didn't make any changes whore!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "label": "toxic",
+    "probability": 0.9292888045310974,
+    "decision": "FLAGGED",
+    "confidence": "high",
+    "top_contributing_words": [
+      [
+        "ucking",
+        0.39342615008354187
+      ],
+      [
+        "whore",
+        0.10126280039548874
+      ],
+      [
+        "bitch",
+        0.06331846863031387
+      ],
+      [
+        "",
+        0.04442377761006355
+      ],
+      [
+        "whore",
+        0.04179280251264572
+      ]
+    ],
+    "top_suppressing_words": [
+      [
+        "!!!!!!!!",
+        -0.04100361093878746
+      ],
+      [
+        "!!!!!!!!",
+        -0.038596272468566895
+      ],
+      [
+        "changes",
+        -0.011364317499101162
+      ]
+    ],
+    "summary": "This text was FLAGGED as **toxic** with 92.9% confidence. \n**Primary reasons:** The words 'ucking' (+0.393), 'whore' (+0.101), 'bitch' (+0.063) strongly contributed to this classification. \n**Mitigating factors:** However, '!!!!!!!!' (-0.041), '!!!!!!!!' (-0.039) reduced the score.",
+    "all_predictions": {
+      "toxic": 0.9292888045310974,
+      "severe_toxic": 0.45295122265815735,
+      "obscene": 0.808642566204071,
+      "threat": 0.14688870310783386,
+      "insult": 0.7556551694869995,
+      "identity_hate": 0.22690892219543457
+    }
+  },
+  {
+    "text": "hello i am civil \n\n please go to hell and die, because i did not edit anything on wikipedia.com, infact i just got on this site, indeed. and i have only browsed through sections on video games and stuff, so dont please dont tell me that i am editing anything.\np.s that was civil.",
+    "label": "toxic",
+    "probability": 0.6694352030754089,
+    "decision": "FLAGGED",
+    "confidence": "moderate",
+    "top_contributing_words": [
+      [
+        "die",
+        0.23834174871444702
+      ],
+      [
+        "hell",
+        0.16320103406906128
+      ],
+      [
+        "to",
+        0.04020906612277031
+      ],
+      [
+        "and",
+        0.02988622710108757
+      ],
+      [
+        "go",
+        0.02553313784301281
+      ]
+    ],
+    "top_suppressing_words": [
+      [
+        ",",
+        -0.03691599518060684
+      ],
+      [
+        "ipedia",
+        -0.025007497519254684
+      ],
+      [
+        "am",
+        -0.020303793251514435
+      ],
+      [
+        ".",
+        -0.01542680710554123
+      ],
+      [
+        "wik",
+        -0.01308121532201767
+      ]
+    ],
+    "summary": "This text was FLAGGED as **toxic** with 66.9% confidence. \n**Primary reasons:** The words 'die' (+0.238), 'hell' (+0.163), 'to' (+0.040) strongly contributed to this classification. \n**Mitigating factors:** However, ',' (-0.037), 'ipedia' (-0.025) reduced the score.",
+    "all_predictions": {
+      "toxic": 0.6694352030754089,
+      "severe_toxic": 0.12670211493968964,
+      "obscene": 0.31535932421684265,
+      "threat": 0.29994457960128784,
+      "insult": 0.2858842611312866,
+      "identity_hate": 0.12548910081386566
+    }
+  },
+  {
+    "text": "Message for Angie \n\nYo need to get a makeover, u r fuckin ugly bitch.\n\n122.106.27.175",
+    "label": "toxic",
+    "probability": 0.8388692140579224,
+    "decision": "FLAGGED",
+    "confidence": "high",
+    "top_contributing_words": [
+      [
+        "bitch",
+        0.2353644073009491
+      ],
+      [
+        "u",
+        0.09102991968393326
+      ],
+      [
+        "r",
+        0.08620794117450714
+      ],
+      [
+        "ugly",
+        0.05464407801628113
+      ],
+      [
+        "fuckin",
+        0.049277521669864655
+      ]
+    ],
+    "top_suppressing_words": [
+      [
+        "for",
+        -0.015400039032101631
+      ],
+      [
+        "175",
+        -0.014094626531004906
+      ],
+      [
+        ",",
+        -0.0057383254170417786
+      ],
+      [
+        "106",
+        -0.0022410843521356583
+      ],
+      [
+        "Yo",
+        -0.0011374326422810555
+      ]
+    ],
+    "summary": "This text was FLAGGED as **toxic** with 83.9% confidence. \n**Primary reasons:** The words 'bitch' (+0.235), 'u' (+0.091), 'r' (+0.086) strongly contributed to this classification. \n**Mitigating factors:** However, 'for' (-0.015), '175' (-0.014) reduced the score.",
+    "all_predictions": {
+      "toxic": 0.8388692140579224,
+      "severe_toxic": 0.3244781494140625,
+      "obscene": 0.7264426946640015,
+      "threat": 0.1683565378189087,
+      "insult": 0.6638345718383789,
+      "identity_hate": 0.27416807413101196
+    }
+  },
+  {
+    "text": "NIGGERS ARE BLACK. WHY IS THIS?",
+    "label": "identity_hate",
+    "probability": 0.8208811283111572,
+    "decision": "FLAGGED",
+    "confidence": "high",
+    "top_contributing_words": [
+      [
+        "N",
+        0.2917364835739136
+      ],
+      [
+        "IG",
+        0.2282281517982483
+      ],
+      [
+        "G",
+        0.11310862749814987
+      ],
+      [
+        "THIS",
+        0.08835692703723907
+      ],
+      [
+        "ARE",
+        0.078360915184021
+      ]
+    ],
+    "top_suppressing_words": [
+      [
+        "WHY",
+        -0.02003803290426731
+      ],
+      [
+        "BLACK",
+        -0.019075317308306694
+      ]
+    ],
+    "summary": "This text was FLAGGED as **identity_hate** with 82.1% confidence. \n**Primary reasons:** The words 'N' (+0.292), 'IG' (+0.228), 'G' (+0.113) strongly contributed to this classification. \n**Mitigating factors:** However, 'WHY' (-0.020), 'BLACK' (-0.019) reduced the score.",
+    "all_predictions": {
+      "toxic": 0.5426278114318848,
+      "severe_toxic": 0.10900992155075073,
+      "obscene": 0.29463663697242737,
+      "threat": 0.05219702050089836,
+      "insult": 0.3683479130268097,
+      "identity_hate": 0.8208811283111572
+    }
+  },
+  {
+    "text": "Im a fag..... i also hate black people (niggas)",
+    "label": "toxic",
+    "probability": 0.8254987597465515,
+    "decision": "FLAGGED",
+    "confidence": "high",
+    "top_contributing_words": [
+      [
+        "hate",
+        0.16986486315727234
+      ],
+      [
+        "a",
+        0.09566264599561691
+      ],
+      [
+        "ag",
+        0.09220484644174576
+      ],
+      [
+        "f",
+        0.07224813103675842
+      ],
+      [
+        "as",
+        0.06821803748607635
+      ]
+    ],
+    "top_suppressing_words": [
+      [
+        "also",
+        -0.017638061195611954
+      ]
+    ],
+    "summary": "This text was FLAGGED as **toxic** with 82.5% confidence. \n**Primary reasons:** The words 'hate' (+0.170), 'a' (+0.096), 'ag' (+0.092) strongly contributed to this classification. \n**Mitigating factors:** However, 'also' (-0.018) reduced the score.",
+    "all_predictions": {
+      "toxic": 0.8254987597465515,
+      "severe_toxic": 0.2725929915904999,
+      "obscene": 0.6116238236427307,
+      "threat": 0.1447000950574875,
+      "insult": 0.5899697542190552,
+      "identity_hate": 0.7765142917633057
+    }
+  },
+  {
+    "text": "RACIST \n\nnow you know who you are and where you belong. I'm not gonna bather myself with hopeless people",
+    "label": "toxic",
+    "probability": 0.4134325683116913,
+    "decision": "NOT FLAGGED",
+    "confidence": "low",
+    "top_contributing_words": [
+      [
+        "hopeless",
+        0.03514598682522774
+      ],
+      [
+        "",
+        0.035074301064014435
+      ],
+      [
+        "IST",
+        0.0344826802611351
+      ],
+      [
+        "gonna",
+        0.02823854424059391
+      ],
+      [
+        "not",
+        0.024530470371246338
+      ]
+    ],
+    "top_suppressing_words": [
+      [
+        ".",
+        -0.02124442718923092
+      ],
+      [
+        "people",
+        -0.01710435375571251
+      ],
+      [
+        "where",
+        -0.016360025852918625
+      ],
+      [
+        "with",
+        -0.009896377101540565
+      ],
+      [
+        "ather",
+        -0.0032045086845755577
+      ]
+    ],
+    "summary": "This text was NOT flagged as toxic (only 41.3% confidence). \n**Primary reasons:** The words 'hopeless' (+0.035), '' (+0.035), 'IST' (+0.034) strongly contributed to this classification. \n**Mitigating factors:** However, '.' (-0.021), 'people' (-0.017) reduced the score.",
+    "all_predictions": {
+      "toxic": 0.4134325683116913,
+      "severe_toxic": 0.041469018906354904,
+      "obscene": 0.10325398296117783,
+      "threat": 0.057451628148555756,
+      "insult": 0.1681392341852188,
+      "identity_hate": 0.18213626742362976
+    }
+  },
+  {
+    "text": "ronaldo is a fucking bitch",
+    "label": "toxic",
+    "probability": 0.9205271005630493,
+    "decision": "FLAGGED",
+    "confidence": "high",
+    "top_contributing_words": [
+      [
+        "fucking",
+        0.37456586956977844
+      ],
+      [
+        "bitch",
+        0.13446471095085144
+      ],
+      [
+        "a",
+        0.09709003567695618
+      ],
+      [
+        "is",
+        0.07263026386499405
+      ],
+      [
+        "aldo",
+        0.049250442534685135
+      ]
+    ],
+    "top_suppressing_words": [
+      [
+        "ron",
+        -0.007860993966460228
+      ]
+    ],
+    "summary": "This text was FLAGGED as **toxic** with 92.1% confidence. \n**Primary reasons:** The words 'fucking' (+0.375), 'bitch' (+0.134), 'a' (+0.097) strongly contributed to this classification. \n**Mitigating factors:** However, 'ron' (-0.008) reduced the score.",
+    "all_predictions": {
+      "toxic": 0.9205271005630493,
+      "severe_toxic": 0.39942440390586853,
+      "obscene": 0.8442624807357788,
+      "threat": 0.11048585921525955,
+      "insult": 0.6653415560722351,
+      "identity_hate": 0.19567599892616272
+    }
+  }
+]

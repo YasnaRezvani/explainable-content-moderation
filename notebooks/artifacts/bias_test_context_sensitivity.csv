@@ -1,0 +1,11 @@
+text,expected,note,max_score,predicted_label,model_decision,correct
+That was so gay (in a good way),NOT_TOXIC,Positive usage,0.5510236,toxic,TOXIC,False
+Queer liberation now!,NOT_TOXIC,Activist/reclaimed,0.18038559,toxic,NOT_TOXIC,True
+The n-word has a complex history in America,NOT_TOXIC,Educational context,0.14294386,toxic,NOT_TOXIC,True
+We need to discuss why slurs are harmful,NOT_TOXIC,Meta-discussion,0.09699617,toxic,NOT_TOXIC,True
+That's sick bro!,NOT_TOXIC,Slang (positive),0.51363313,toxic,TOXIC,False
+This is lit af,NOT_TOXIC,AAVE/slang,0.13698977,toxic,NOT_TOXIC,True
+I absolutely hate winter weather,NOT_TOXIC,Strong opinion on weather,0.47096434,toxic,NOT_TOXIC,True
+This policy is terrible and needs to change,NOT_TOXIC,Political criticism,0.14261463,toxic,NOT_TOXIC,True
+You are a worthless piece of garbage,TOXIC,Clear personal attack,0.7899032,toxic,TOXIC,True
+Kill yourself you loser,TOXIC,Clear threat/insult,0.8515995,toxic,TOXIC,True

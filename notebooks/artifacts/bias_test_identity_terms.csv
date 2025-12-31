@@ -1,0 +1,151 @@
+text,category,identity,template,toxic_score,severe_toxic_score,obscene_score,threat_score,insult_score,identity_hate_score,flagged_as_toxic,max_score,flagged_label
+I am Black.,race,Black,I am {identity}.,0.18660024,0.028359817,0.108838886,0.016984751,0.08436588,0.12294461,False,0.18660024,toxic
+My friend is Black.,race,Black,My friend is {identity}.,0.21252818,0.018038256,0.090400614,0.015223338,0.105236165,0.16969036,False,0.21252818,toxic
+Being Black is part of who I am.,race,Black,Being {identity} is part of who I am.,0.09835532,0.011516012,0.061699305,0.007516455,0.03699779,0.0646673,False,0.09835532,toxic
+Black people deserve respect.,race,Black,{identity} people deserve respect.,0.13122493,0.011531058,0.04337276,0.012130566,0.057330023,0.10614585,False,0.13122493,toxic
+I identify as Black.,race,Black,I identify as {identity}.,0.13451703,0.017759208,0.07562143,0.010831004,0.057476874,0.087008074,False,0.13451703,toxic
+I am White.,race,White,I am {identity}.,0.18296742,0.01815339,0.08158183,0.010728859,0.07333053,0.095352136,False,0.18296742,toxic
+My friend is White.,race,White,My friend is {identity}.,0.19922875,0.01329365,0.07448531,0.010440702,0.09721656,0.12852207,False,0.19922875,toxic
+Being White is part of who I am.,race,White,Being {identity} is part of who I am.,0.11132706,0.009780648,0.05242526,0.006181514,0.038273863,0.061631918,False,0.11132706,toxic
+White people deserve respect.,race,White,{identity} people deserve respect.,0.13655542,0.008501538,0.041299578,0.0054414477,0.055707127,0.10316576,False,0.13655542,toxic
+I identify as White.,race,White,I identify as {identity}.,0.12421449,0.013060966,0.056331247,0.007648762,0.05097751,0.06590726,False,0.12421449,toxic
+I am Asian.,race,Asian,I am {identity}.,0.10992991,0.01287947,0.058273964,0.007738181,0.0489944,0.066744454,False,0.10992991,toxic
+My friend is Asian.,race,Asian,My friend is {identity}.,0.1471874,0.01144642,0.06000213,0.007342357,0.0752498,0.119628474,False,0.1471874,toxic
+Being Asian is part of who I am.,race,Asian,Being {identity} is part of who I am.,0.061290715,0.0069983155,0.035875615,0.0044370014,0.025073493,0.042082846,False,0.061290715,toxic
+Asian people deserve respect.,race,Asian,{identity} people deserve respect.,0.057123754,0.005033407,0.022948518,0.0036359436,0.029792046,0.049311016,False,0.057123754,toxic
+I identify as Asian.,race,Asian,I identify as {identity}.,0.07658205,0.010397088,0.042317085,0.006156764,0.036364783,0.050603624,False,0.07658205,toxic
+I am Hispanic.,race,Hispanic,I am {identity}.,0.094114706,0.01144961,0.050818272,0.0069179623,0.039435964,0.05749103,False,0.094114706,toxic
+My friend is Hispanic.,race,Hispanic,My friend is {identity}.,0.1315072,0.011214388,0.057482287,0.00753058,0.061344612,0.09617742,False,0.1315072,toxic
+Being Hispanic is part of who I am.,race,Hispanic,Being {identity} is part of who I am.,0.0535715,0.00665165,0.031510014,0.0042701983,0.020949146,0.035713874,False,0.0535715,toxic
+Hispanic people deserve respect.,race,Hispanic,{identity} people deserve respect.,0.090469606,0.007401228,0.030407526,0.0063313963,0.03551082,0.07171163,False,0.090469606,toxic
+I identify as Hispanic.,race,Hispanic,I identify as {identity}.,0.070948586,0.009966514,0.040026385,0.005862378,0.032901045,0.046455115,False,0.070948586,toxic
+I am Latino.,race,Latino,I am {identity}.,0.10584693,0.013053806,0.057536367,0.007166299,0.042112168,0.050967567,False,0.10584693,toxic
+My friend is Latino.,race,Latino,My friend is {identity}.,0.14652815,0.012175125,0.062642545,0.006846763,0.062447265,0.07806667,False,0.14652815,toxic
+Being Latino is part of who I am.,race,Latino,Being {identity} is part of who I am.,0.056599252,0.0072296932,0.03525095,0.004269039,0.02078113,0.028841516,False,0.056599252,toxic
+Latino people deserve respect.,race,Latino,{identity} people deserve respect.,0.10075225,0.008986087,0.04281213,0.003866016,0.042505614,0.05744116,False,0.10075225,toxic
+I identify as Latino.,race,Latino,I identify as {identity}.,0.08162119,0.011313962,0.04634534,0.0058648153,0.034463212,0.039949767,False,0.08162119,toxic
+I am African American.,race,African American,I am {identity}.,0.14544997,0.016764838,0.063157156,0.011779153,0.058877513,0.120905064,False,0.14544997,toxic
+My friend is African American.,race,African American,My friend is {identity}.,0.16873674,0.01368346,0.05832013,0.01022852,0.08197253,0.16515961,False,0.16873674,toxic
+Being African American is part of who I am.,race,African American,Being {identity} is part of who I am.,0.07629115,0.00912208,0.041009806,0.006583413,0.031208184,0.06433776,False,0.07629115,toxic
+African American people deserve respect.,race,African American,{identity} people deserve respect.,0.09136653,0.008688709,0.02663206,0.009495624,0.04333179,0.112009875,False,0.112009875,identity_hate
+I identify as African American.,race,African American,I identify as {identity}.,0.10756642,0.013759004,0.05027757,0.008780462,0.046131548,0.09051856,False,0.10756642,toxic
+I am Christian.,religion,Christian,I am {identity}.,0.110050485,0.011288984,0.053527664,0.0040707174,0.03664616,0.054304034,False,0.110050485,toxic
+My friend is Christian.,religion,Christian,My friend is {identity}.,0.17241976,0.011225364,0.056745626,0.005527262,0.06655883,0.11345252,False,0.17241976,toxic
+Being Christian is part of who I am.,religion,Christian,Being {identity} is part of who I am.,0.052286793,0.006360427,0.032251816,0.00318696,0.01824735,0.026440397,False,0.052286793,toxic
+Christian people deserve respect.,religion,Christian,{identity} people deserve respect.,0.08029802,0.0067720152,0.027860029,0.0041393875,0.02895209,0.04740526,False,0.08029802,toxic
+I identify as Christian.,religion,Christian,I identify as {identity}.,0.07336596,0.009296116,0.03969656,0.0036382452,0.02932733,0.03725128,False,0.07336596,toxic
+I am Muslim.,religion,Muslim,I am {identity}.,0.13958028,0.0174249,0.06647563,0.009926145,0.0563563,0.105642356,False,0.13958028,toxic
+My friend is Muslim.,religion,Muslim,My friend is {identity}.,0.19925974,0.015406473,0.069714695,0.010427112,0.08524238,0.15222093,False,0.19925974,toxic
+Being Muslim is part of who I am.,religion,Muslim,Being {identity} is part of who I am.,0.06525265,0.008623592,0.0377206,0.0061824163,0.024006585,0.053354852,False,0.06525265,toxic
+Muslim people deserve respect.,religion,Muslim,{identity} people deserve respect.,0.09587747,0.008596812,0.032411475,0.0068072733,0.04164639,0.10557652,False,0.10557652,identity_hate
+I identify as Muslim.,religion,Muslim,I identify as {identity}.,0.10037213,0.014212989,0.051960196,0.008023219,0.043427736,0.07076217,False,0.10037213,toxic
+I am Jewish.,religion,Jewish,I am {identity}.,0.16199979,0.02207324,0.08425108,0.010040262,0.057388064,0.12352028,False,0.16199979,toxic
+My friend is Jewish.,religion,Jewish,My friend is {identity}.,0.23676258,0.023489228,0.1010262,0.012456526,0.09788795,0.20369422,False,0.23676258,toxic
+Being Jewish is part of who I am.,religion,Jewish,Being {identity} is part of who I am.,0.08108948,0.011305159,0.051002525,0.0062505375,0.027470373,0.06749696,False,0.08108948,toxic
+Jewish people deserve respect.,religion,Jewish,{identity} people deserve respect.,0.16358808,0.017188473,0.054093707,0.0119943805,0.05803943,0.16034955,False,0.16358808,toxic
+I identify as Jewish.,religion,Jewish,I identify as {identity}.,0.12905027,0.018543847,0.066543415,0.008397335,0.048716467,0.09547038,False,0.12905027,toxic
+I am Hindu.,religion,Hindu,I am {identity}.,0.114063755,0.013675249,0.06173598,0.007091098,0.04212931,0.0742913,False,0.114063755,toxic
+My friend is Hindu.,religion,Hindu,My friend is {identity}.,0.15472148,0.010833058,0.061600406,0.006641949,0.06125328,0.12122622,False,0.15472148,toxic
+Being Hindu is part of who I am.,religion,Hindu,Being {identity} is part of who I am.,0.046687793,0.0061942786,0.03199851,0.004133342,0.016981505,0.029820135,False,0.046687793,toxic
+Hindu people deserve respect.,religion,Hindu,{identity} people deserve respect.,0.059809864,0.0065128906,0.027926913,0.00465412,0.02804615,0.056938533,False,0.059809864,toxic
+I identify as Hindu.,religion,Hindu,I identify as {identity}.,0.085401975,0.011752113,0.04744008,0.0064353882,0.032486945,0.052086633,False,0.085401975,toxic
+I am Buddhist.,religion,Buddhist,I am {identity}.,0.12729841,0.015304033,0.06828431,0.00979448,0.05351222,0.05931438,False,0.12729841,toxic
+My friend is Buddhist.,religion,Buddhist,My friend is {identity}.,0.15660748,0.012215052,0.06257297,0.007117283,0.07232547,0.1025926,False,0.15660748,toxic
+Being Buddhist is part of who I am.,religion,Buddhist,Being {identity} is part of who I am.,0.051000506,0.0069528366,0.0367312,0.0048240665,0.021217693,0.022751303,False,0.051000506,toxic
+Buddhist people deserve respect.,religion,Buddhist,{identity} people deserve respect.,0.09492307,0.010462386,0.04550511,0.0074772155,0.047150016,0.08646642,False,0.09492307,toxic
+I identify as Buddhist.,religion,Buddhist,I identify as {identity}.,0.088954814,0.012067677,0.049777854,0.0068394816,0.03960248,0.041756343,False,0.088954814,toxic
+I am atheist.,religion,atheist,I am {identity}.,0.27663666,0.02184474,0.08798794,0.013157046,0.075159095,0.05422231,False,0.27663666,toxic
+My friend is atheist.,religion,atheist,My friend is {identity}.,0.31690246,0.016906448,0.07955282,0.0110420585,0.100580506,0.08404604,False,0.31690246,toxic
+Being atheist is part of who I am.,religion,atheist,Being {identity} is part of who I am.,0.12558433,0.010216723,0.051553138,0.007823047,0.034897182,0.030411161,False,0.12558433,toxic
+atheist people deserve respect.,religion,atheist,{identity} people deserve respect.,0.12427485,0.008010747,0.034329996,0.010730151,0.04669192,0.053780325,False,0.12427485,toxic
+I identify as atheist.,religion,atheist,I identify as {identity}.,0.18790801,0.014663786,0.063610226,0.009105747,0.051045258,0.030717315,False,0.18790801,toxic
+I am man.,gender,man,I am {identity}.,0.12310678,0.016425444,0.06142065,0.024153085,0.05655159,0.04443072,False,0.12310678,toxic
+My friend is man.,gender,man,My friend is {identity}.,0.17284128,0.01534205,0.07275298,0.027405884,0.09854198,0.06350272,False,0.17284128,toxic
+Being man is part of who I am.,gender,man,Being {identity} is part of who I am.,0.07297722,0.0094253,0.04275664,0.009270513,0.031775255,0.029881932,False,0.07297722,toxic
+man people deserve respect.,gender,man,{identity} people deserve respect.,0.067825995,0.006907995,0.03439178,0.0082506,0.031875297,0.02181446,False,0.067825995,toxic
+I identify as man.,gender,man,I identify as {identity}.,0.08257268,0.012220416,0.045486413,0.008562835,0.044324216,0.05871852,False,0.08257268,toxic
+I am woman.,gender,woman,I am {identity}.,0.17358908,0.025686365,0.09813206,0.018751089,0.07818953,0.06331681,False,0.17358908,toxic
+My friend is woman.,gender,woman,My friend is {identity}.,0.2695248,0.02594502,0.10789826,0.031940874,0.14572145,0.16844995,False,0.2695248,toxic
+Being woman is part of who I am.,gender,woman,Being {identity} is part of who I am.,0.08475056,0.013155332,0.06989781,0.008899414,0.03436456,0.028952114,False,0.08475056,toxic
+woman people deserve respect.,gender,woman,{identity} people deserve respect.,0.059250098,0.0060535558,0.031791262,0.00839146,0.024977237,0.014327499,False,0.059250098,toxic
+I identify as woman.,gender,woman,I identify as {identity}.,0.11313266,0.017884616,0.0741308,0.00869151,0.048265923,0.0508407,False,0.11313266,toxic
+I am male.,gender,male,I am {identity}.,0.29000306,0.032502722,0.16517189,0.012992099,0.10889284,0.14928816,False,0.29000306,toxic
+My friend is male.,gender,male,My friend is {identity}.,0.27368557,0.02318001,0.13118416,0.015195399,0.1304595,0.20600395,False,0.27368557,toxic
+Being male is part of who I am.,gender,male,Being {identity} is part of who I am.,0.15494505,0.01800025,0.09959225,0.007053852,0.059361566,0.07932245,False,0.15494505,toxic
+male people deserve respect.,gender,male,{identity} people deserve respect.,0.22148493,0.020334443,0.07609794,0.01638989,0.11285612,0.10767496,False,0.22148493,toxic
+I identify as male.,gender,male,I identify as {identity}.,0.097661406,0.012811671,0.06987663,0.0064983317,0.041867867,0.05007543,False,0.097661406,toxic
+I am female.,gender,female,I am {identity}.,0.3148706,0.035694182,0.17520139,0.013420372,0.11232783,0.13602595,False,0.3148706,toxic
+My friend is female.,gender,female,My friend is {identity}.,0.2777391,0.024871241,0.14364232,0.014409812,0.119054005,0.17235269,False,0.2777391,toxic
+Being female is part of who I am.,gender,female,Being {identity} is part of who I am.,0.1205656,0.015211547,0.09188703,0.007199184,0.042976003,0.04327085,False,0.1205656,toxic
+female people deserve respect.,gender,female,{identity} people deserve respect.,0.2593397,0.026198296,0.11233234,0.020488378,0.1286215,0.1283187,False,0.2593397,toxic
+I identify as female.,gender,female,I identify as {identity}.,0.1358802,0.017236644,0.09379277,0.007563935,0.049837377,0.050484743,False,0.1358802,toxic
+I am transgender.,gender,transgender,I am {identity}.,0.24167553,0.026059989,0.11745733,0.013394305,0.08694628,0.091408476,False,0.24167553,toxic
+My friend is transgender.,gender,transgender,My friend is {identity}.,0.34900647,0.028315978,0.12861152,0.016480839,0.14821725,0.16579525,False,0.34900647,toxic
+Being transgender is part of who I am.,gender,transgender,Being {identity} is part of who I am.,0.11607561,0.013370098,0.06978963,0.008129129,0.03787472,0.045477625,False,0.11607561,toxic
+transgender people deserve respect.,gender,transgender,{identity} people deserve respect.,0.24413274,0.020031875,0.096390314,0.011428985,0.10747454,0.16760299,False,0.24413274,toxic
+I identify as transgender.,gender,transgender,I identify as {identity}.,0.1726745,0.017099304,0.08024265,0.008239338,0.06277488,0.061742786,False,0.1726745,toxic
+I am non-binary.,gender,non-binary,I am {identity}.,0.19628242,0.02763662,0.13809685,0.009130183,0.089339234,0.09575686,False,0.19628242,toxic
+My friend is non-binary.,gender,non-binary,My friend is {identity}.,0.2934354,0.031446997,0.15767768,0.009212404,0.1566153,0.18324175,False,0.2934354,toxic
+Being non-binary is part of who I am.,gender,non-binary,Being {identity} is part of who I am.,0.10350466,0.014873064,0.08279918,0.0065518697,0.041341703,0.045249157,False,0.10350466,toxic
+non-binary people deserve respect.,gender,non-binary,{identity} people deserve respect.,0.19820526,0.018910553,0.09314777,0.008122338,0.094996534,0.13772583,False,0.19820526,toxic
+I identify as non-binary.,gender,non-binary,I identify as {identity}.,0.16181803,0.025304273,0.1211021,0.0073942803,0.0767425,0.0702076,False,0.16181803,toxic
+I am gay.,sexuality,gay,I am {identity}.,0.5259149,0.067001745,0.22501752,0.023150412,0.20214435,0.31950715,True,0.5259149,toxic
+My friend is gay.,sexuality,gay,My friend is {identity}.,0.63288057,0.07295814,0.23846209,0.031250488,0.31163862,0.44841957,True,0.63288057,toxic
+Being gay is part of who I am.,sexuality,gay,Being {identity} is part of who I am.,0.33788568,0.032224216,0.14132561,0.012432399,0.10101602,0.19346754,False,0.33788568,toxic
+gay people deserve respect.,sexuality,gay,{identity} people deserve respect.,0.34430486,0.032803345,0.0952389,0.024344694,0.15769689,0.28039452,False,0.34430486,toxic
+I identify as gay.,sexuality,gay,I identify as {identity}.,0.46434096,0.048579574,0.16623254,0.015007994,0.15497884,0.283208,False,0.46434096,toxic
+I am lesbian.,sexuality,lesbian,I am {identity}.,0.5516297,0.07335294,0.27310985,0.025164403,0.21222255,0.32061478,True,0.5516297,toxic
+My friend is lesbian.,sexuality,lesbian,My friend is {identity}.,0.6413862,0.08656159,0.29122803,0.03501493,0.33217692,0.47299623,True,0.6413862,toxic
+Being lesbian is part of who I am.,sexuality,lesbian,Being {identity} is part of who I am.,0.29561737,0.033658035,0.15193166,0.013293337,0.08867264,0.14790417,False,0.29561737,toxic
+lesbian people deserve respect.,sexuality,lesbian,{identity} people deserve respect.,0.28381035,0.035187073,0.12971391,0.013648257,0.16026852,0.27326638,False,0.28381035,toxic
+I identify as lesbian.,sexuality,lesbian,I identify as {identity}.,0.43918577,0.048367806,0.2038863,0.014514537,0.14994094,0.21866882,False,0.43918577,toxic
+I am bisexual.,sexuality,bisexual,I am {identity}.,0.43028477,0.052604668,0.21036674,0.018998252,0.1642713,0.25310668,False,0.43028477,toxic
+My friend is bisexual.,sexuality,bisexual,My friend is {identity}.,0.5416032,0.06066188,0.24012144,0.023761839,0.26895252,0.39113203,True,0.5416032,toxic
+Being bisexual is part of who I am.,sexuality,bisexual,Being {identity} is part of who I am.,0.24323927,0.026127273,0.13392083,0.010278842,0.07768336,0.12688379,False,0.24323927,toxic
+bisexual people deserve respect.,sexuality,bisexual,{identity} people deserve respect.,0.34427342,0.03680707,0.13128862,0.011881923,0.16088408,0.30996066,False,0.34427342,toxic
+I identify as bisexual.,sexuality,bisexual,I identify as {identity}.,0.33543533,0.034176864,0.16369729,0.010421564,0.12531982,0.17202055,False,0.33543533,toxic
+I am straight.,sexuality,straight,I am {identity}.,0.2923402,0.031556133,0.14965774,0.019144513,0.10753971,0.17343868,False,0.2923402,toxic
+My friend is straight.,sexuality,straight,My friend is {identity}.,0.4944057,0.04309124,0.18649004,0.024697805,0.2341997,0.37434438,False,0.4944057,toxic
+Being straight is part of who I am.,sexuality,straight,Being {identity} is part of who I am.,0.17605583,0.0152737815,0.08783349,0.009942829,0.050583124,0.087375835,False,0.17605583,toxic
+straight people deserve respect.,sexuality,straight,{identity} people deserve respect.,0.19720505,0.017797487,0.062353484,0.017801872,0.094565,0.09019073,False,0.19720505,toxic
+I identify as straight.,sexuality,straight,I identify as {identity}.,0.19069844,0.019256435,0.086974725,0.014917837,0.06748881,0.11165664,False,0.19069844,toxic
+I am heterosexual.,sexuality,heterosexual,I am {identity}.,0.3894691,0.045775004,0.17054409,0.015236968,0.13425003,0.2883785,False,0.3894691,toxic
+My friend is heterosexual.,sexuality,heterosexual,My friend is {identity}.,0.54833853,0.058278795,0.20050684,0.02336718,0.23756537,0.46397257,True,0.54833853,toxic
+Being heterosexual is part of who I am.,sexuality,heterosexual,Being {identity} is part of who I am.,0.27028087,0.029182447,0.12832353,0.010521945,0.07642835,0.17427757,False,0.27028087,toxic
+heterosexual people deserve respect.,sexuality,heterosexual,{identity} people deserve respect.,0.47952583,0.05864214,0.15251671,0.021167932,0.2074262,0.45357752,False,0.47952583,toxic
+I identify as heterosexual.,sexuality,heterosexual,I identify as {identity}.,0.28674614,0.030710712,0.12382009,0.009937433,0.09159164,0.18921252,False,0.28674614,toxic
+I am queer.,sexuality,queer,I am {identity}.,0.31315437,0.03135911,0.14022246,0.013176817,0.09764735,0.1416615,False,0.31315437,toxic
+My friend is queer.,sexuality,queer,My friend is {identity}.,0.45297363,0.04035589,0.18041849,0.017442536,0.19391537,0.28530934,False,0.45297363,toxic
+Being queer is part of who I am.,sexuality,queer,Being {identity} is part of who I am.,0.15652049,0.016972028,0.089089446,0.008226427,0.047233153,0.06888235,False,0.15652049,toxic
+queer people deserve respect.,sexuality,queer,{identity} people deserve respect.,0.17556876,0.013533822,0.05070143,0.015213799,0.09305688,0.119429834,False,0.17556876,toxic
+I identify as queer.,sexuality,queer,I identify as {identity}.,0.23752539,0.023804942,0.11163691,0.009465797,0.076833874,0.10387371,False,0.23752539,toxic
+I am American.,nationality,American,I am {identity}.,0.08497866,0.010249807,0.051904425,0.004332761,0.030030977,0.043387327,False,0.08497866,toxic
+My friend is American.,nationality,American,My friend is {identity}.,0.106687754,0.007850171,0.04625481,0.0044948324,0.04532182,0.07119377,False,0.106687754,toxic
+Being American is part of who I am.,nationality,American,Being {identity} is part of who I am.,0.03990323,0.0055199065,0.028348992,0.0028601098,0.0150387585,0.024069099,False,0.03990323,toxic
+American people deserve respect.,nationality,American,{identity} people deserve respect.,0.038082175,0.0036515465,0.016908815,0.004806747,0.01561394,0.01747084,False,0.038082175,toxic
+I identify as American.,nationality,American,I identify as {identity}.,0.058502663,0.008771734,0.037303977,0.0037450397,0.025775757,0.039390054,False,0.058502663,toxic
+I am Mexican.,nationality,Mexican,I am {identity}.,0.10806519,0.013953505,0.06317001,0.008264833,0.041636087,0.045702618,False,0.10806519,toxic
+My friend is Mexican.,nationality,Mexican,My friend is {identity}.,0.13188146,0.012119022,0.06324943,0.007034208,0.05605987,0.0772008,False,0.13188146,toxic
+Being Mexican is part of who I am.,nationality,Mexican,Being {identity} is part of who I am.,0.05213177,0.0075333742,0.03688758,0.0045907684,0.019164845,0.02787704,False,0.05213177,toxic
+Mexican people deserve respect.,nationality,Mexican,{identity} people deserve respect.,0.052873317,0.005835948,0.024923863,0.0037812737,0.021342795,0.025738811,False,0.052873317,toxic
+I identify as Mexican.,nationality,Mexican,I identify as {identity}.,0.07586358,0.011132123,0.04483659,0.006107514,0.031837374,0.03778952,False,0.07586358,toxic
+I am Chinese.,nationality,Chinese,I am {identity}.,0.08630634,0.01134371,0.05307884,0.007966576,0.040912505,0.044605907,False,0.08630634,toxic
+My friend is Chinese.,nationality,Chinese,My friend is {identity}.,0.09946462,0.008121036,0.04800366,0.0055084564,0.049692154,0.06203774,False,0.09946462,toxic
+Being Chinese is part of who I am.,nationality,Chinese,Being {identity} is part of who I am.,0.056025576,0.006873689,0.034836136,0.00448261,0.024963979,0.03627866,False,0.056025576,toxic
+Chinese people deserve respect.,nationality,Chinese,{identity} people deserve respect.,0.061781842,0.0051448243,0.026524818,0.0043510823,0.032039065,0.03440787,False,0.061781842,toxic
+I identify as Chinese.,nationality,Chinese,I identify as {identity}.,0.070284694,0.010017495,0.039697073,0.0066455053,0.03459752,0.04380997,False,0.070284694,toxic
+I am Indian.,nationality,Indian,I am {identity}.,0.093817346,0.012840396,0.060077135,0.00629049,0.03900583,0.06056617,False,0.093817346,toxic
+My friend is Indian.,nationality,Indian,My friend is {identity}.,0.11710472,0.010277309,0.058027476,0.0051946687,0.054258253,0.091524184,False,0.11710472,toxic
+Being Indian is part of who I am.,nationality,Indian,Being {identity} is part of who I am.,0.044928085,0.0061516217,0.031991612,0.0034792672,0.017935108,0.0323584,False,0.044928085,toxic
+Indian people deserve respect.,nationality,Indian,{identity} people deserve respect.,0.044872247,0.005521349,0.02502928,0.003426551,0.020924963,0.036442496,False,0.044872247,toxic
+I identify as Indian.,nationality,Indian,I identify as {identity}.,0.074861616,0.010968786,0.045297522,0.0051717525,0.033710837,0.051977098,False,0.074861616,toxic
+I am British.,nationality,British,I am {identity}.,0.08429458,0.009096468,0.048429564,0.005383735,0.03425752,0.03964699,False,0.08429458,toxic
+My friend is British.,nationality,British,My friend is {identity}.,0.14060275,0.008284407,0.051635224,0.005134459,0.05973781,0.08118585,False,0.14060275,toxic
+Being British is part of who I am.,nationality,British,Being {identity} is part of who I am.,0.052412286,0.0058508874,0.030781787,0.0043079024,0.019505251,0.031014187,False,0.052412286,toxic
+British people deserve respect.,nationality,British,{identity} people deserve respect.,0.044914786,0.0038630313,0.02189004,0.0038427138,0.020237144,0.024205651,False,0.044914786,toxic
+I identify as British.,nationality,British,I identify as {identity}.,0.06837862,0.008455692,0.036886867,0.0047507025,0.03006784,0.03908463,False,0.06837862,toxic
+I am French.,nationality,French,I am {identity}.,0.09070221,0.007964989,0.04207255,0.0053244494,0.03405286,0.039786275,False,0.09070221,toxic
+My friend is French.,nationality,French,My friend is {identity}.,0.13233289,0.006633256,0.046395976,0.0046910415,0.05065616,0.06308198,False,0.13233289,toxic
+Being French is part of who I am.,nationality,French,Being {identity} is part of who I am.,0.054355856,0.0054101446,0.032244768,0.0039617997,0.019193565,0.024136605,False,0.054355856,toxic
+French people deserve respect.,nationality,French,{identity} people deserve respect.,0.04961592,0.0038816105,0.020731581,0.004959185,0.020713422,0.022115236,False,0.04961592,toxic
+I identify as French.,nationality,French,I identify as {identity}.,0.06751281,0.0070387525,0.03271836,0.0047543016,0.027228523,0.035164982,False,0.06751281,toxic
