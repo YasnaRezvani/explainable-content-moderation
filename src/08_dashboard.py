@@ -13,30 +13,9 @@ from captum.attr import IntegratedGradients
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from io import BytesIO
-
 import os
 import requests
-
-# ============================================================
-# DOWNLOAD ARTIFACTS IF MISSING (STREAMLIT CLOUD SAFE)
-# ============================================================
-
-ARTIFACT_DIR = Path(__file__).resolve().parent.parent / "notebooks" / "artifacts"
-ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
-
-ARTIFACTS = {
-    "primary_v3_fold0.pth": "https://drive.google.com/uc?export=download&id=1F-OEssWqo0l9PnN-vS_CdKrpxbEUcnoG",
-    "explanation_dataset_100.json": "https://drive.google.com/uc?export=download&id=1F-OEssWqo0l9PnN-vS_CdKrpxbEUcnoG"
-}
-
-for filename, url in ARTIFACTS.items():
-    path = ARTIFACT_DIR / filename
-    if not path.exists():
-        with st.spinner(f"Downloading {filename}..."):
-            r = requests.get(url)
-            r.raise_for_status()
-            with open(path, "wb") as f:
-                f.write(r.content)
+import gdown
 
 # ============================================================
 # CONFIGURATION
@@ -49,16 +28,91 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Paths
-ARTIFACT_DIR = Path(__file__).resolve().parent.parent / "notebooks" / "artifacts"
-MODEL_PATH = ARTIFACT_DIR / "primary_v3_fold0.pth"
-EXPLANATION_PATH = ARTIFACT_DIR / "explanation_dataset_100.json"
+# Google Drive file ID
+GDRIVE_FILES = {
+    'model': '1F-OEssWqo0l9PnN-vS_CdKrpxbEUcnoG',           # primary_v3_fold0.pth
+    'explanations': '1-WYs_xhfEVhI1EOdiulGzKZt9S78-zF7'    # explanation_dataset_100.json
+}
+
+# Local cache directory
+CACHE_DIR = Path("cache_artifacts")
+CACHE_DIR.mkdir(exist_ok=True)
+
+MODEL_PATH = CACHE_DIR / "primary_v3_fold0.pth"
+EXPLANATION_PATH = CACHE_DIR / "explanation_dataset_100.json"
 
 # Model config
 MODEL_NAME = "roberta-base"
 MAX_LEN = 128
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 label_names = ["toxic", "severe_toxic", "obscene", "threat", "insult", "identity_hate"]
+
+# ============================================================
+# GOOGLE DRIVE DOWNLOAD FUNCTIONS
+# ============================================================
+
+import gdown
+
+def download_file_from_gdrive(file_id, destination):
+    """Download a file from Google Drive using gdown"""
+    url = f'https://drive.google.com/uc?id={file_id}'
+    
+    try:
+        gdown.download(url, str(destination), quiet=False)
+    except Exception as e:
+        raise ValueError(
+            f"Failed to download from Google Drive.\n"
+            f"File ID: {file_id}\n"
+            f"Error: {e}\n\n"
+            f"Please verify:\n"
+            f"1. File sharing is set to 'Anyone with the link'\n"
+            f"2. File ID is correct\n"
+            f"3. File exists and is accessible"
+        )
+
+def ensure_artifacts_downloaded():
+    """Download artifacts from Google Drive if not present (NOT CACHED)"""
+    
+    files_to_download = []
+    
+    if not MODEL_PATH.exists():
+        files_to_download.append(('model', MODEL_PATH))
+    
+    if not EXPLANATION_PATH.exists():
+        files_to_download.append(('explanations', EXPLANATION_PATH))
+    
+    if files_to_download:
+        # Use Streamlit's built-in progress indicators
+        progress_text = st.empty()
+        progress_bar = st.progress(0)
+        
+        for idx, (file_key, destination) in enumerate(files_to_download):
+            file_id = GDRIVE_FILES[file_key]
+            
+            progress_text.text(f"📥 Downloading {destination.name}... ({idx+1}/{len(files_to_download)})")
+            
+            try:
+                download_file_from_gdrive(file_id, destination)
+                
+                # Verify file size
+                file_size_mb = destination.stat().st_size / (1024 * 1024)
+                progress_text.text(f"✅ Downloaded {destination.name} ({file_size_mb:.1f} MB)")
+                
+            except Exception as e:
+                st.error(f"❌ Failed to download {destination.name}")
+                st.error(str(e))
+                st.stop()
+            
+            progress_bar.progress((idx + 1) / len(files_to_download))
+        
+        progress_text.text("✅ All artifacts downloaded!")
+        import time
+        time.sleep(1)
+        progress_bar.empty()
+        progress_text.empty()
+    
+    return True
+
 
 # ============================================================
 # HELPER: Format label names
@@ -74,12 +128,24 @@ def format_label_name(label):
 
 @st.cache_resource
 def load_model():
-    """Load the trained model"""
+    """Load the trained model (assumes files are already downloaded)"""
+    
+    # Check if model file exists
+    if not MODEL_PATH.exists():
+        st.error(f"❌ Model file not found at {MODEL_PATH}")
+        st.error("Please ensure artifacts are downloaded first.")
+        st.stop()
+    
     model = AutoModelForSequenceClassification.from_pretrained(
         MODEL_NAME, 
         num_labels=len(label_names)
     )
-    model.load_state_dict(torch.load(MODEL_PATH, map_location=DEVICE))
+    
+    # Load with weights_only=False for PyTorch 2.6 compatibility
+    model.load_state_dict(
+        torch.load(MODEL_PATH, map_location=DEVICE, weights_only=False)
+    )
+    
     model.to(DEVICE)
     model.eval()
     
@@ -89,10 +155,17 @@ def load_model():
 
 @st.cache_data
 def load_explanations():
-    """Load pre-computed explanations"""
+    """Load pre-computed explanations (assumes files are already downloaded)"""
+    
+    # Check if explanation file exists
+    if not EXPLANATION_PATH.exists():
+        st.error(f"❌ Explanation file not found at {EXPLANATION_PATH}")
+        st.error("Please ensure artifacts are downloaded first.")
+        st.stop()
+    
     with open(EXPLANATION_PATH, 'r', encoding='utf-8') as f:
         return json.load(f)
-
+    
 # ============================================================
 # MODEL WRAPPER FOR INTEGRATED GRADIENTS
 # ============================================================
@@ -450,8 +523,11 @@ def main():
     # Header
     st.title("🛡️ Explainable Content Moderation System")
     st.markdown("*An AI-powered system with transparent, interpretable decisions*")
+
+    # ✅ STEP 1: Ensure artifacts are downloaded FIRST (before caching)
+    ensure_artifacts_downloaded()
     
-    # Load resources
+    # ✅ STEP 2: Load resources (now files exist and can be cached)
     with st.spinner("Loading model and data..."):
         model, tokenizer = load_model()
         explanations = load_explanations()

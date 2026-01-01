@@ -108,6 +108,17 @@ streamlit run 08_dashboard.py
 
 Access at `http://localhost:8501`
 
+**Note:** Model files will be automatically downloaded from Google Drive on first run (~476 MB).
+
+### Model Files
+
+The trained model and explanation dataset are hosted on Google Drive and will be downloaded automatically when you first run the dashboard. If you need to download them manually:
+
+- Model: [Download (475 MB)](https://drive.google.com/file/d/1F-OEssWqo0l9PnN-vS_CdKrpxbEUcnoG/view?usp=sharing)
+- Explanations: [Download](https://drive.google.com/file/d/1-WYs_xhfEVhI1EOdiulGzKZt9S78-zF7/view?usp=sharing)
+
+Place them in `cache_artifacts/` directory if downloading manually.
+
 ### Test a Single Comment
 ```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
