@@ -14,6 +14,30 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from io import BytesIO
 
+import os
+import requests
+
+# ============================================================
+# DOWNLOAD ARTIFACTS IF MISSING (STREAMLIT CLOUD SAFE)
+# ============================================================
+
+ARTIFACT_DIR = Path(__file__).resolve().parent.parent / "notebooks" / "artifacts"
+ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
+
+ARTIFACTS = {
+    "primary_v3_fold0.pth": "https://drive.google.com/uc?export=download&id=1F-OEssWqo0l9PnN-vS_CdKrpxbEUcnoG",
+    "explanation_dataset_100.json": "https://drive.google.com/uc?export=download&id=1F-OEssWqo0l9PnN-vS_CdKrpxbEUcnoG"
+}
+
+for filename, url in ARTIFACTS.items():
+    path = ARTIFACT_DIR / filename
+    if not path.exists():
+        with st.spinner(f"Downloading {filename}..."):
+            r = requests.get(url)
+            r.raise_for_status()
+            with open(path, "wb") as f:
+                f.write(r.content)
+
 # ============================================================
 # CONFIGURATION
 # ============================================================
