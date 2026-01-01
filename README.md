@@ -94,7 +94,7 @@ CMD Project 1/
 ### Installation
 ```bash
 # Clone repository
-git clone <your-repo-url>
+git clone https://github.com/YasnaRezvani/explainable-content-moderation.git
 cd explainable-content-moderation
 
 # Install dependencies
@@ -240,7 +240,7 @@ This project demonstrates:
 
 ## 👤 Author
 
-**Your Name**  
+**Yasna Rezvani**  
 [LinkedIn](https://www.linkedin.com/in/yasna-rezvani/) | [GitHub](https://github.com/YasnaRezvani)
 
 ---
