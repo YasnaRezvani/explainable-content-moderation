@@ -2,8 +2,12 @@
 
 An AI-powered content moderation system that provides transparent, interpretable decisions using transformer models and Integrated Gradients explainability.
 
----
+⚡ **Live Demo**  
+A lightweight demo of the interactive dashboard (live content moderation) is available on Hugging Face Spaces: [https://huggingface.co/spaces/yasnarezvani/explainable-content-moderation].
 
+This demo uses pre-computed artifacts and does not include the full training pipeline.
+
+---
 ## 📋 Project Overview
 
 **Problem Statement:**
@@ -62,7 +66,7 @@ This project develops an interpretable AI system that classifies content as safe
 
 ## 🏗️ Project Structure
 ```
-CMD Project 1/
+explainable-content-moderation/
 ├── notebooks/
 │   ├── 01_data_preparation.ipynb                 # Data preparation and visualization
 │   ├── 02_baseline_model.ipynb                   # Baseline model
@@ -91,6 +95,8 @@ CMD Project 1/
 
 ## 🚀 Quick Start
 
+💡 Note: For a quick demo without setup, check out the live Hugging Face Space: [https://huggingface.co/spaces/yasnarezvani/explainable-content-moderation]
+
 ### Installation
 ```bash
 # Clone repository
@@ -109,6 +115,7 @@ streamlit run 08_dashboard.py
 Access at `http://localhost:8501`
 
 **Note:** Model files will be automatically downloaded from Google Drive on first run (~476 MB).
+The Hugging Face Space hosts a lightweight demo version. The full project with training notebooks is on GitHub.
 
 ### Model Files
 
